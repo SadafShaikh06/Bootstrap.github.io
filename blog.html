@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="bootstrap(main)/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome 2/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="font-awesome 2/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="font-awesome 2/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="font-awesome 2/fontawesome/css/">
+</head>
+<body>
+
+    <header>
+      <div class="fluid-container">
+          <div class="row">
+              <div class="col-lg-6 col-12 media1">
+                  <ul type="none" class="d-lg-flex">
+                      <li>
+                          <span><i class="fa-solid fa-phone"></i> +01 123 456 789</span>
+                      </li>
+                      <li>
+                          <span><i class="fa-solid fa-envelope"></i> youremail@gmail.com</span>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="col-lg-6 col-12 media">
+                  <ul type="none" class="space d-lg-flex">
+                      <li style=" padding-right:8px; border-right: 1px solid rgb(239,239,239);">
+                          <div class="dropdown">
+                              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <span><i class="fa-solid fa-user"></i> My Account</span>
+                              </button>
+                              <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item text-white" href="#">Login</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Register</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Cart</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Checkout</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Wishlist</a></li>
+                              </ul>
+                          </div>
+                      </li>
+                      <li style=" padding-right:8px; border-right: 1px solid rgb(239,239,239);">
+                          <a href="">Login/Register</a>
+                      </li>
+                      <li>
+                          <select class="form-select" aria-label="Default select example">
+                              <option selected>USD</option>
+                              <option value="1" >GBP <i class="fa-regular fa-angle-down"></i></option>
+                              <option value="2">AUD</option>
+                              <option value="3">CAD</option>
+                              <option value="4">CHF</option>
+                          </select>
+                      
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-3" href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="cart.html">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_home" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#"><i class="fa-regular fa-magnifying-glass"></i></a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown dropdown2">
+              <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-bs-toggle="dropdown" href=""><span class="position-relative bg-light">
+                  <i class="fa fa-heart-o"></i>
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    2
+                  </span>
+              </span></a>
+
+                <ul class="dropdown-menu wishlist" aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <div class="div_heart d-flex dropdown-item">
+                        <div class="wishlist_img me-3">
+                          <img src="images/1.jpg" alt="">
+                        </div>
+                        <div class="wishlist_txt">
+                          <p><a href="cart.html">Pure nature <br> product</a></p>
+                          <p>QTY : 1</p>
+                          <p>$35.00</p>
+                          <i class="fa fa-times text-white"></i>
+                        </div>
+                    </div>
+        
+                  </li>
+                  
+                  <li>
+                    <div class="div_heart d-flex dropdown-item">
+                        <div class="wishlist_img me-3">
+                          <img src="images/3.jpg" alt="">
+                        </div>
+                        <div class="wishlist_txt">
+                          <p><a href="cart.html">Pure nature <br> product</a></p>
+                          <p>QTY : 1</p>
+                          <p>$35.00</p>
+                          <i class="fa fa-times text-white"></i>
+                        </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="subtotal">
+                      <span class="span1">Subtotal: </span><span>$70</span>
+                      <a href="" class="btn">Check Out</a>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <div class="dropdown dropdown2">
+              <a class="nav-link dropdown-toggle shopping" id="dropdownMenuLink" data-bs-toggle="dropdown" href=""><span class="position-relative bg-light">
+                  <i class="fa fa-shopping-bag"></i>
+                  <span class="position-absolute shopping top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    3
+                  </span>
+              </span></a>
+
+              <ul class="dropdown-menu wishlist" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <div class="div_heart d-flex dropdown-item">
+                      <div class="wishlist_img me-3">
+                        <img src="images/1.jpg" alt="">
+                      </div>
+                      <div class="wishlist_txt">
+                        <p><a href="cart.html">Pure nature <br> product</a></p>
+                        <p>QTY : 1</p>
+                        <p>$35.00</p>
+                        <i class="fa fa-times text-white"></i>
+                      </div>
+                  </div>
+      
+                </li>
+                
+                <li>
+                  <div class="div_heart d-flex dropdown-item">
+                      <div class="wishlist_img me-3">
+                        <img src="images/3.jpg" alt="">
+                      </div>
+                      <div class="wishlist_txt">
+                        <p><a href="cart.html">Pure nature <br> product</a></p>
+                        <p>QTY : 1</p>
+                        <p>$35.00</p>
+                        <i class="fa fa-times text-white"></i>
+                      </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="div_heart d-flex dropdown-item">
+                      <div class="wishlist_img me-3">
+                        <img src="images/2.jpg" alt="">
+                      </div>
+                      <div class="wishlist_txt">
+                        <p><a href="cart.html">Pure nature <br> product</a></p>
+                        <p>QTY : 1</p>
+                        <p>$35.00</p>
+                        <i class="fa fa-times text-white"></i>
+                      </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="subtotal">
+                    <span class="span1">Subtotal: </span><span>$105</span>
+                    <a href="" class="btn">Check Out</a>
+                  </div>
+                </li>
+
+                </ul>
+              </div>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+  </nav>
+    
+    <div class="div1">
+
+      <h3 class="fw-bold">Blog Page</h3>
+      <p><a href="index.html">Home </a> /  Contact</p>
+
+    </div>
+
+
+    <div class="div2">
+      <div class="part1 mb-5 text-center">
+        <h2 class="fw-bold">Latest News</h2>
+        <img src="images/section-title.png" alt="">
+      </div>
+
+      <div class="div2_p2 d-lg-flex d-block">
+        
+        <div class="div2_card">
+          <div class="div2_img">
+              <img src="images/29.jpg" alt="">
+          </div>
+
+
+          <div class="div2_icon text-center">
+              <span class="benjamin"><b>20</b><br>JAN</span>
+          </div>
+
+          <div class="div2_txt">
+            <span><a href=""><i class="fa fa-user"></i> Admin</a></span>
+            <span><a href=""><i class="fa fa-heart"></i> Love</a></span>
+            <span><a href=""><i class="fa fa-comment"></i> Comments</a></span>
+            <h3><a href="">British military courts use aginst protesters busines cultural...</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p>
+          </div>
+
+        </div>
+
+        <div class="div2_card">
+          <div class="div2_img">
+              <img src="images/26.jpg" alt="">
+          </div>
+
+
+          <div class="div2_icon text-center">
+              <span class="benjamin"><b>20</b><br>JAN</span>
+          </div>
+
+          <div class="div2_txt">
+            <span><a href=""><i class="fa fa-user"></i> Admin</a></span>
+            <span><a href=""><i class="fa fa-heart"></i> Love</a></span>
+            <span><a href=""><i class="fa fa-comment"></i> Comments</a></span>
+            <h3><a href="">British military courts use aginst protesters busines cultural...</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p>
+          </div>
+
+        </div>
+
+        <div class="div2_card">
+          <div class="div2_img">
+              <img src="images/25.jpg" alt="">
+          </div>
+
+
+          <div class="div2_icon text-center">
+              <span class="benjamin"><b>25</b><br>JUN</span>
+          </div>
+
+          <div class="div2_txt">
+            <span><a href=""><i class="fa fa-user"></i> Admin</a></span>
+            <span><a href=""><i class="fa fa-heart"></i> Love</a></span>
+            <span><a href=""><i class="fa fa-comment"></i> Comments</a></span>
+            <h3><a href="">British military courts use aginst protesters busines cultural...</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p>
+          </div>
+
+        </div>
+
+
+        <div class="div2_card">
+          <div class="div2_img">
+              <img src="images/20.jpg" alt="">
+          </div>
+
+
+          <div class="div2_icon text-center">
+              <span class="benjamin"><b>20</b><br>JAN</span>
+          </div>
+
+          <div class="div2_txt">
+            <span><a href=""><i class="fa fa-user"></i> Admin</a></span>
+            <span><a href=""><i class="fa fa-heart"></i> Love</a></span>
+            <span><a href=""><i class="fa fa-comment"></i> Comments</a></span>
+            <h3><a href="">British military courts use aginst protesters busines cultural...</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p>
+          </div>
+
+        </div>
+
+        <div class="div2_card">
+          <div class="div2_img">
+              <img src="images/31.jpg" alt="">
+          </div>
+
+
+          <div class="div2_icon text-center">
+              <span class="benjamin"><b>20</b><br>JAN</span>
+          </div>
+
+          <div class="div2_txt">
+            <span><a href=""><i class="fa fa-user"></i> Admin</a></span>
+            <span><a href=""><i class="fa fa-heart"></i> Love</a></span>
+            <span><a href=""><i class="fa fa-comment"></i> Comments</a></span>
+            <h3><a href="">British military courts use aginst protesters busines cultural...</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p>
+          </div>
+
+        </div>
+
+        <div class="div2_card">
+          <div class="div2_img">
+              <img src="images/5.jpg" alt="">
+          </div>
+
+
+          <div class="div2_icon text-center">
+              <span class="benjamin"><b>20</b><br>JAN</span>
+          </div>
+
+          <div class="div2_txt">
+            <span><a href=""><i class="fa fa-user"></i> Admin</a></span>
+            <span><a href=""><i class="fa fa-heart"></i> Love</a></span>
+            <span><a href=""><i class="fa fa-comment"></i> Comments</a></span>
+            <h3><a href="">British military courts use aginst protesters busines cultural...</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nulla veniam autem veritatis, adipisci officia? Tempora necessitatibus, iusto minima maxime ipsum quae dolore repellat quaerat.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+    
+
+    <div class="newsletter">
+      <h1 class="text-white fs-2 mb-4">Subscribe Newsletter</h1>
+      <div class="email con_form p-3 rounded-pill">
+        <input type="email " name="" class="" id="email" placeholder="Enter Your Email Address...">
+        <a href=""><i class="fa-brands fa-telegram fs-4"></i></a>
+      </div>
+    </div>
+
+    <footer>
+
+      <div class="footer1">
+        <ul type="none" class="d-lg-flex d-block">
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+          <li>
+            <a href="about.html" class="slash">OUR STORY</a>
+          </li>
+          <li>
+            <a href="shop.html" class="slash">FEED SHOP</a>
+          </li>
+          <li>
+            <a href="blog.html" class="slash">HOW TO EAT BLOG</a>
+          </li>
+          <li>
+            <a href="contact.html" class="slash">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 right">
+              <div class="task h-50 mt-lg-4">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in "></i></a>
+                <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 right">
+              <div class="task">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure righteous indignation and dislike</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 right">
+              <div class="task">
+                <span class="yellow">Email: </span><span><a href="">domain@gmail.com</a></span><br>
+                <span class="yellow">Tel: </span><span><a href="">0131234567</a></span><br>
+                <span class="yellow">Address: </span><span><a href="">52 Web Bangale, Address line 2, Ip:3105</a></span>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="task h-50 mt-lg-4">
+                <p>Copyright © 2019 Tohoney All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    <div id="home" class="arrow_div">
+      <a href=""><i class="fa fa-arrow-up"></i></a>
+    </div>
+
+
+  <script src="bootstrap(main)/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>

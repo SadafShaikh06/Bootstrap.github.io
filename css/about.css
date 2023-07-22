@@ -1,0 +1,777 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nabla', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    padding:15px 15px 5px;
+}
+
+header .dropdown-menu{
+    z-index: 1100 !important;
+}
+
+.fluid-container{
+    border-bottom: 1px solid rgb(239,239,239);
+}
+
+li{
+    margin-right: 20px;
+}
+
+li a, li span{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+li a:hover{
+    color: rgb(237,72,54);
+}
+
+.space{
+    margin-left: 40%;
+}
+
+
+.media .dropdown-toggle::after{
+    vertical-align: 8%;
+}
+
+.media button span{
+    font-size: 14px !important;
+    vertical-align: baseline;
+}
+
+.media button i{
+    vertical-align: 10%;
+}
+
+.btn-secondary {
+    border: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    color: black !important;
+    transition: all 0.5s;
+}
+
+.btn-secondary:hover{
+    color: rgb(237,72,54) !important;
+}
+
+.btn-secondary:hover span{
+    color: rgb(237,72,54);
+}
+
+.dropdown-item:hover{
+    color: black !important;
+}
+
+.form-select {
+    padding: 0 !important;
+    width: 70px !important;
+    border: none !important;
+    cursor: pointer;
+    font-size: 14px !important;
+}
+
+.form-select:hover{
+    color: rgb(237,72,54);
+}
+
+.form-select:focus{
+    box-shadow: none !important;
+}
+
+option{
+    background-color: black;
+    color: white;
+    cursor: pointer !important;
+}
+
+.badge{
+    padding: 0.1em 0.25em !important;
+}
+
+.nav-item > a{
+    vertical-align: -20%;
+}
+
+.nav_home{
+    color: rgb(237,72,54) !important;
+}
+
+.nav-item:hover a{
+    color: rgb(237,72,54) !important;
+}
+
+.nav-item:hover i{
+    color: rgb(237,72,54) !important;
+}
+
+.nav-item:hover .badge{
+    background-color: black !important;
+}
+
+
+.nav-item:hover .wishlist_txt a{
+    color: white !important;
+}
+
+.nav-item:hover .subtotal a{
+    color: black !important;
+}
+
+.nav-item:hover .wishlist i{
+    color: white !important;
+}
+
+.nav-item .wishlist a:hover{
+    color: rgb(237,72,54) !important;
+}
+
+.nav-item .subtotal a:hover{
+    color: white !important;
+}
+
+.nav-item .wishlist i:hover{
+    color: rgb(237,72,54) !important;
+}
+
+
+.fade:not(.show) {
+    opacity: 1 !important;
+}
+
+.dropdown2 .dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left:  -200px !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: transparent !important;
+}
+
+.dropdown-menu{
+    background-color: rgb(44,57,42) !important;
+    width: 250px !important;
+    margin-top: 15px !important;
+}
+
+.wishlist .dropdown-item{
+    width: 100% !important;
+}
+
+.div_heart p{
+    color: white;
+    margin: 0 !important;
+}
+
+.div_heart a{
+    color: white !important;
+}
+
+.dropdown-item p a:hover{
+    color: rgb(237,72,54) !important;
+}
+
+.wishlist .dropdown-item:hover{
+    background-color: transparent !important;
+}
+
+.wishlist_txt p{
+    font-size: 14px !important;
+}
+
+.div_heart{
+    margin: 10px !important;
+    padding-bottom: 10px !important ;
+    border-bottom: 1px solid rgb(187,187,187) !important;
+}
+
+.wishlist_txt{
+    position: relative;
+}
+
+.wishlist_txt i{
+    position: absolute;
+    top: 0;
+    right: -40px;
+    cursor: pointer;
+}
+
+.subtotal{
+    padding: 15px 15px 0;
+    color: white;
+}
+
+.subtotal span{
+    color: white;
+    font-size: 14px;
+}
+
+.subtotal .span1{
+    margin-right: 53%;
+}
+
+.subtotal a{
+    padding: 8px 55px;
+    margin-top: 10px !important;
+    background-color: white !important;
+    border-radius: 0 !important;
+    color: black !important;
+}
+
+.subtotal a:hover{
+    background-color: rgb(237,72,54) !important;
+    color: white !important;
+}
+
+
+.div1{
+    width: 100%;
+    height: 45vh;
+    background-image: url(../images/30.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1.2in;
+    color: white;
+    text-align: center;
+}
+
+.div1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.div1 a:hover{
+    color: rgb(237,72,54);
+}
+
+.div2{
+    padding: 1in 1in 0;
+}
+
+.div2 p{
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.section2 .task1 h6 a{
+    text-decoration: none;
+    color: rgb(51,51,51);
+}
+
+.section2 .task1 h6 a:hover{
+    color: rgb(237,72,54);
+}    
+
+.section2 .task1 .checked{
+    color: rgb(237,72,54);
+}
+
+.section2 .task1{
+    text-align: left;
+}
+
+.section2 .task1 i, span{
+    font-size: 13px !important;
+    vertical-align: 25%;
+}
+.section2 .task1_img > img{
+    width: 100%;
+    transform: scale(1.2);
+    transition: all 0.6s;
+
+}
+
+.task1 > .task1_img{
+    width: 280px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.task1_img:hover img{
+    transform: scale(1);
+}
+
+.section2 .task1 del{
+    margin-right: 37%;
+} 
+
+.section2{
+    padding: 50px;
+}
+
+.task1 .img_overlay{
+    width: 100%;
+    height: 291px;
+    text-align: center;
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+    transform: scale(0);
+    position: absolute;
+    top: 0;
+    transition: all .5s;
+}
+
+.task1_img:hover .img_overlay{
+    transform: scale(1);
+}
+
+.img_overlay i{
+    padding: 10px;
+    margin-top: 45%;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img_overlay i:hover{
+    background-color: rgb(237,72,54);
+    border: 1px solid rgb(237,72,54);
+}
+
+
+.mod-img{
+    height: 450px;
+    max-width: 500px !important;
+}
+
+.mod-img img{
+    max-width: 500px !important;
+    height: 100%;
+}
+
+.mod-txt{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.mod-txt span, .mod-txt p{
+    font-size: 14px;
+}
+
+.mod-txt .fa-star{
+    color: orange;
+}
+
+.mod-txt .price{
+    margin-right: 180px;
+}
+
+.mod-txt .quantity{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.mod-txt .quantity input{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(204,204,204);
+    color: rgb(51,51,51);
+    text-align: center;
+    margin-left: 10px;
+}
+
+.mod-txt .dec-btn, .mod-txt .incr-btn{
+    width: 35px;
+    height: 36px;
+    position: absolute;
+    top: -1px;
+    text-align: center;
+    /* vertical-align: middle; */
+    padding-top: 7px;
+    background-color: rgb(221,221,221);
+    transition: all 0.3s;
+    color: black;
+}
+
+.mod-txt .dec-btn{
+    left: 80px;
+    padding-top: 5px;
+}
+
+.mod-txt .dec-btn:hover{
+    background-color: rgb(237,72,54);
+    color: white;
+}
+
+.mod-txt .incr-btn:hover{
+    background-color: rgb(237,72,54);
+    color: white;
+}
+
+.mod-txt .incr-btn{
+    left: 2px;
+}
+
+.mod-txt .red-btn{
+    background-color: rgb(237,72,54);
+    color: white;
+    border-radius: 0;
+    padding: 5px 12px !important;
+    margin-left: 30px;
+}
+
+.mod-txt .red-btn:hover{
+    background-color: rgb(58,63,66);
+    color: white;
+}
+
+.mod-txt .quantity + span a{
+    color: rgb(51,51,51);
+    transition: all .3s;
+    
+}
+
+.mod-txt .quantity + span a:hover{
+    color: rgb(237,72,54);
+}
+
+.mod-txt a{
+    text-decoration: none;
+}
+
+.mod-txt .color{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(153,153,153);
+    outline-offset: 3px;
+    outline: 2px solid rgb(153,153,153);
+    margin-right: 20px;
+}
+
+.mod-txt .color1{
+    background-color: rgb(136,136,136);
+    outline: 2px solid rgb(136,136,136);
+}
+
+.mod-txt .color2{
+    background-color: rgb(119,119,119);
+    outline: 2px solid rgb(119,119,119);
+}
+
+.mod-txt .color3{
+    background-color: rgb(102,102,102);
+    outline: 2px solid rgb(102,102,102);
+}
+
+.mod-txt .size{
+    padding: 5px 10px;
+    border: 1px solid rgb(237,72,54);
+    margin-right: 10px;
+    color: rgb(237,72,54);
+}
+
+.mod-txt .main-size + span i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(51,51,51);
+    color: white;
+}
+
+.mod-txt .main-size + span i:hover{
+    background-color: rgb(237,72,54);
+}
+
+.modal-header{
+    border-bottom: none !important;
+}
+
+.mod-txt span .fa{
+    vertical-align: 0%;
+}
+
+.newsletter{
+    text-align: center;
+    padding: 1in;
+    background-color: rgb(39,42,45);
+    border-bottom: 1px solid rgb(60,60,60);
+}
+
+input{
+    border: none !important;
+    font-size: 17px;
+    color: rgb(187,187,187);
+    width: 90%;
+    background-color: transparent;
+}
+
+input:focus{
+    border: none !important;
+    outline: none !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+::placeholder{
+    color: rgb(134,142,142);
+}
+
+.newsletter i{
+    margin-left: 20px;
+    color: white;
+}
+
+.con_form{
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: all 1s;
+    background-color: rgb(58,63,66);
+    margin-left: 25%;
+    width: 50%;
+}
+
+footer{
+    background-color: rgb(34,37,40);
+    padding: 0 0.7in;
+}
+
+.footer1{
+    padding: 50px 23% 40px;
+    border-bottom: 1px solid rgb(60,60,60);
+}
+
+.footer1 a{
+    color: rgb(160,160,160);
+}
+
+.footer1 li .slash::before{
+    width: 1px;
+    height: max-content;
+    content: "/";
+    margin-right: 15px;
+}
+
+.footer1 li:hover a{
+    color: red;
+}
+
+.footer1 :hover .slash::before{
+    color: rgb(134,142,142) !important;
+}
+
+.footer2{
+    padding: 50px 0;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: rgb(160,160,160);
+    transition: color .3s;
+}
+
+.footer2 a:hover{
+    color: red;
+}
+
+.task{
+    color: rgb(160,160,160);
+    padding: 20px 10px;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.row .right{
+    border-right: 1px solid rgb(58,63,66);
+}
+
+.task i{
+    padding: 10px;
+    color: rgb(160,160,160);
+    transition: 0.5s;
+}
+
+.task i:hover{
+    color: red;
+}
+
+.task .yellow{
+    color: rgb(167,159,124);
+}
+
+
+.arrow_div .fa{
+    padding: 12px 13px;
+    font-weight: bold;
+    /* border-radius: 50%; */
+    background-color: rgb(237,72,54);
+    position: relative;
+    bottom: 17px;
+    left: 94vw;
+    color: white;
+    position: fixed;
+
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+    
+    .space{
+        margin-left: 0;
+        /* width: 100% !important; */
+        /* max-width: 100vw !important; */
+    }
+
+    .media1 ul{
+        margin: 0 0 0 !important;
+    }
+    
+    .dropdown button{
+        display: block;
+        padding: 0;
+    }
+
+    .col-12{
+        text-align: center;
+        /* width: 20vw; */
+        max-width: 100% !important;
+    }
+
+    
+    /* .media1{
+        margin-top: -20px !important;
+    } */
+
+    .media ul li{
+        
+        text-align: center !important;
+    }
+
+    .media li .dropdown{
+        margin-left: 27% !important;
+    }
+    .media li select{
+        margin-left: 35% !important;
+        margin-top: 8px !important;
+    }
+
+    .navbar-nav .nav-link{
+        padding-left: 10px !important;
+    }
+
+    .div2{
+        padding: 50px 20px;
+    }
+
+
+    .section2{
+        padding: 15px;
+    }
+
+    .task1_img{
+        width: 280px;
+    }
+
+    .section2 .task1 del{
+        margin-right: 35%;
+    } 
+
+    .task1{
+        margin-bottom: 30px;
+    }
+
+    
+    .mod-img{
+        height: 300px;
+        max-width: 270px !important;
+        margin-bottom: 20px;
+    }
+    
+    .mod-img img{
+        max-width: 270px !important;
+    }
+
+    .mod-txt{
+        margin-left: 0px;
+    }
+
+    .mod-txt .price{
+        margin-right: 250px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .newsletter{
+        padding: 50px 15px;
+    }
+
+    input{
+        width: 80%;
+    }
+
+    .con_form{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .newsletter i{
+        margin-left: 2px;
+    }
+
+    footer{
+        padding: 0 5px;
+    }
+
+    .footer1 li{
+        margin-bottom: 15px;
+    }
+    .footer1{
+        padding: 50px 0px;
+    }
+
+    .footer1 li .slash::before{
+        display: none !important;
+    }
+
+    .task{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .arrow_div .fa{
+        left: 83vw;
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "editor.fastScrollSensitivity": 5,
+    "workbench.list.fastScrollSensitivity": 5,
+    "terminal.integrated.fastScrollSensitivity": 5
+}

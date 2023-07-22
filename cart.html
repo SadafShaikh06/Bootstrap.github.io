@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="bootstrap(main)/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome 2/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="font-awesome 2/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="font-awesome 2/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="font-awesome 2/fontawesome/css/">
+</head>
+<body>
+
+    <header>
+      <div class="fluid-container">
+          <div class="row">
+              <div class="col-lg-6 col-12  no-margin">
+                  <ul type="none" class="d-lg-flex">
+                      <li>
+                          <span><i class="fa-solid fa-phone"></i> +01 123 456 789</span>
+                      </li>
+                      <li>
+                          <span><i class="fa-solid fa-envelope"></i> youremail@gmail.com</span>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="col-lg-6 col-12 media">
+                  <ul type="none" class="space d-lg-flex">
+                      <li style=" padding-right:8px; border-right: 1px solid rgb(239,239,239);">
+                          <div class="dropdown">
+                              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <span><i class="fa-solid fa-user"></i> My Account</span>
+                              </button>
+                              <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item text-white" href="#">Login</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Register</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Cart</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Checkout</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Wishlist</a></li>
+                              </ul>
+                          </div>
+                      </li>
+                      <li style=" padding-right:8px; border-right: 1px solid rgb(239,239,239);">
+                          <a href="">Login/Register</a>
+                      </li>
+                      <li>
+                          <select class="form-select" aria-label="Default select example">
+                              <option selected>USD</option>
+                              <option value="1" >GBP <i class="fa-regular fa-angle-down"></i></option>
+                              <option value="2">AUD</option>
+                              <option value="3">CAD</option>
+                              <option value="4">CHF</option>
+                          </select>
+                      
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+    </header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand ps-3" href="#">
+                <img src="images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="product.html">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_home" href="cart.html">Cart</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><i class="fa-regular fa-magnifying-glass"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="dropdown dropdown2">
+                    <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-bs-toggle="dropdown" href=""><span class="position-relative bg-light">
+                        <i class="fa fa-heart-o"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                          2
+                        </span>
+                    </span></a>
+
+                      <ul class="dropdown-menu wishlist" aria-labelledby="dropdownMenuLink">
+                        <li>
+                          <div class="div_heart d-flex dropdown-item">
+                              <div class="wishlist_img me-3">
+                                <img src="images/1.jpg" alt="">
+                              </div>
+                              <div class="wishlist_txt">
+                                <p><a href="cart.html">Pure nature <br> product</a></p>
+                                <p>QTY : 1</p>
+                                <p>$35.00</p>
+                                <i class="fa fa-times text-white"></i>
+                              </div>
+                          </div>
+              
+                        </li>
+                        
+                        <li>
+                          <div class="div_heart d-flex dropdown-item">
+                              <div class="wishlist_img me-3">
+                                <img src="images/3.jpg" alt="">
+                              </div>
+                              <div class="wishlist_txt">
+                                <p><a href="cart.html">Pure nature <br> product</a></p>
+                                <p>QTY : 1</p>
+                                <p>$35.00</p>
+                                <i class="fa fa-times text-white"></i>
+                              </div>
+                          </div>
+                        </li>
+
+                        <li>
+                          <div class="subtotal">
+                            <span class="span1">Subtotal: </span><span>$70</span>
+                            <a href="" class="btn">Check Out</a>
+                          </div>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <div class="dropdown dropdown2">
+                    <a class="nav-link dropdown-toggle shopping" id="dropdownMenuLink" data-bs-toggle="dropdown" href=""><span class="position-relative bg-light">
+                        <i class="fa fa-shopping-bag"></i>
+                        <span class="position-absolute shopping top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                          3
+                        </span>
+                    </span></a>
+
+                    <ul class="dropdown-menu wishlist" aria-labelledby="dropdownMenuLink">
+                      <li>
+                        <div class="div_heart d-flex dropdown-item">
+                            <div class="wishlist_img me-3">
+                              <img src="images/1.jpg" alt="">
+                            </div>
+                            <div class="wishlist_txt">
+                              <p><a href="cart.html">Pure nature <br> product</a></p>
+                              <p>QTY : 1</p>
+                              <p>$35.00</p>
+                              <i class="fa fa-times text-white"></i>
+                            </div>
+                        </div>
+            
+                      </li>
+                      
+                      <li>
+                        <div class="div_heart d-flex dropdown-item">
+                            <div class="wishlist_img me-3">
+                              <img src="images/3.jpg" alt="">
+                            </div>
+                            <div class="wishlist_txt">
+                              <p><a href="cart.html">Pure nature <br> product</a></p>
+                              <p>QTY : 1</p>
+                              <p>$35.00</p>
+                              <i class="fa fa-times text-white"></i>
+                            </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="div_heart d-flex dropdown-item">
+                            <div class="wishlist_img me-3">
+                              <img src="images/2.jpg" alt="">
+                            </div>
+                            <div class="wishlist_txt">
+                              <p><a href="cart.html">Pure nature <br> product</a></p>
+                              <p>QTY : 1</p>
+                              <p>$35.00</p>
+                              <i class="fa fa-times text-white"></i>
+                            </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="subtotal">
+                          <span class="span1">Subtotal: </span><span>$105</span>
+                          <a href="" class="btn">Check Out</a>
+                        </div>
+                      </li>
+
+                      </ul>
+                    </div>
+                  </li>
+
+
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+    
+    <div class="div5">
+
+      <h3 class="fw-bold">Shopping Cart</h3>
+      <p><a href="index.html">Home </a> /  Shop</p>
+
+    </div>
+
+
+    <div class="div1">
+      <table class="table table-bordered text-center">
+        <thead class="bg-dark text-white">
+          <th>Image</th>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Remove</th>
+        </thead>
+
+        <tr  class="alert-dismissible">
+
+          <td><img src="images/1.jpg" alt=""></td>
+          <td><a href="">Nature Honey</a></td>
+          <td>$139.00</td>
+          <td class="quantity">
+            <input type="text" name="" value="1" id="">
+            <a href=""><div class="dec-btn"><i class="fa fa-window-minimize"></i>
+            </div></a>
+            <a href=""><div class="inc-btn"><i class="fa fa-plus"></i>
+            </div></a>
+          </td>
+          <td>$139.00</td>
+          <td>
+            <a href=""><i class="fa fa-times" data-bs-dismiss="alert"></i></a>
+        </td>
+
+        </tr>
+
+        <tr  class="alert-dismissible">
+          
+          <td><img src="images/2.jpg" alt=""></td>
+          <td><a href="">Pure Olive Oil</a></td>
+          <td>$685.00</td>
+          <td class="quantity">
+            <input type="text" name="" value="1" id="">
+            <a href=""><div class="dec-btn"><i class="fa fa-window-minimize"></i>
+            </div></a>
+            <a href=""><div class="inc-btn"><i class="fa fa-plus"></i>
+            </div></a>
+          </td>
+          <td>$685.00</td>
+          <td>
+            <a href=""><i class="fa fa-times" data-bs-dismiss="alert"></i></a>
+        </td>
+
+        </tr>
+
+        <tr  class="alert-dismissible">
+          
+          <td><img src="images/3.jpg" alt=""></td>
+          <td><a href="">Pure Coconut Oil</a></td>
+          <td>$145.80</td>
+          <td class="quantity">
+            <input type="text" name="" value="1" id="">
+            <a href=""><div class="dec-btn"><i class="fa fa-window-minimize"></i>
+            </div></a>
+            <a href=""><div class="inc-btn"><i class="fa fa-plus"></i>
+            </div></a>
+          </td>
+          <td>$145.80</td>
+          <td>
+            <a href=""><i class="fa fa-times" data-bs-dismiss="alert"></i></a>
+        </td>
+
+        </tr>
+      </table>
+
+
+      <div class="div1_p2">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="div2">
+              <a href="" class="btn">Update Cart</a>
+              <a href="" class="btn">Continue Shopping</a>
+              <h5 class="fw-bold">Coupon</h5>
+              <p>Enter your Coupon Code if You have one</p>
+              <div class="cart-coupon">
+                <input type="text" name="" id="" placeholder="Counpon Code">
+              <a href="" class="btn red-btn">Apply Coupon</a>
+              </div>
+            
+            
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 col-12">
+            <div class="div2-p2">
+              <h2 class="fw-bold">Cart Totals</h2>
+              <p class="fw-bold fs-6 head5">Subtotal<span class="clh5">$380.00</span></p><br>
+              <p class="fw-bold fs-4 head3">Total<span class="clh3">$380.00</span></p><br>
+              <a href="" class="btn red-btn">PROCEED TO CHECKOUT</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="newsletter">
+      <h1 class="text-white fs-2 mb-4">Subscribe Newsletter</h1>
+      <div class="email con_form p-3 rounded-pill">
+        <input type="email " name="" class="" id="email" placeholder="Enter Your Email Address...">
+        <a href=""><i class="fa-brands fa-telegram fs-4"></i></a>
+      </div>
+    </div>
+
+    <footer>
+
+      <div class="footer1">
+        <ul type="none" class="d-lg-flex d-block">
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+          <li>
+            <a href="about.html" class="slash">OUR STORY</a>
+          </li>
+          <li>
+            <a href="shop.html" class="slash">FEED SHOP</a>
+          </li>
+          <li>
+            <a href="blog.html" class="slash">HOW TO EAT BLOG</a>
+          </li>
+          <li>
+            <a href="contact.html" class="slash">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 right">
+              <div class="task h-50 mt-lg-4">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in "></i></a>
+                <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 right">
+              <div class="task">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure righteous indignation and dislike</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 right">
+              <div class="task">
+                <span class="yellow">Email: </span><span><a href="">domain@gmail.com</a></span><br>
+                <span class="yellow">Tel: </span><span><a href="">0131234567</a></span><br>
+                <span class="yellow">Address: </span><span><a href="">52 Web Bangale, Address line 2, Ip:3105</a></span>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="task h-50 mt-lg-4">
+                <p>Copyright © 2019 Tohoney All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    <div id="home" class="arrow_div">
+      <a href=""><i class="fa fa-arrow-up"></i></a>
+  </div>
+
+
+    <script src="bootstrap(main)/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      var alertList = document.querySelectorAll('.alert')
+      var alerts =  [].slice.call(alertList).map(function (element) {
+      return new bootstrap.Alert(element)
+      })
+    </script>
+
+</body>
+</html>
